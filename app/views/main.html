@@ -1,0 +1,8 @@
+<div class="nameResponse" ng-show="nameSubmitted">
+	<h3>David<span ng-show="changeText">&rsquo;s nickname is:</span> <span ng-hide="changeText">calls you:</span> <span ng-bind-html="nameString">{{ nameString }}</span></h3>
+</div>
+
+<form class="form-group" ng-submit="getNickname(username)">
+    <input class="form-control" name="username" ng-model="username" type="text" placeholder="Name">
+    <button class="btn form-control btn-primary submit" type="submit">Nickname me!</button>
+</form>
