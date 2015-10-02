@@ -136,7 +136,13 @@ angular.module('davidPriceNicknamesApp')
     	"Cap'n Crunch",
     	"Lucky Charm",
     	"Marshmallow",
-    	"Oreo"
+    	"Oreo",
+    	"Turbo",
+    	"DeLorean",
+    	"Shiny and Chrome",
+    	"Stirrups",
+    	"Side Eye",
+    	"Shark"
     ];
 
     $scope.shuffleNames = function() {
