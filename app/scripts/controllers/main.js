@@ -70,7 +70,6 @@ angular.module('davidPriceNicknamesApp')
   	};
 
     $scope.nicknames = [
-    	"Beaver Grin",
     	"Man Bun",
     	"Top Knot",
     	"Dirtbag Boyfriend",
