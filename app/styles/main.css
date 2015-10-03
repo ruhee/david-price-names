@@ -46,6 +46,10 @@ input[type=text] {
 	width: 100%;
 }
 
+p.press-links {
+	font-size: 0.857em;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 768px) {
 	h2 {

@@ -155,7 +155,9 @@ angular.module('davidPriceNicknamesApp')
     	"Soul Patch",
     	"Senator",
     	"The Prez",
-    	"Terrycloth"
+    	"Terrycloth",
+    	"Gold Glove",
+    	"Speed Racer"
     ];
 
     $scope.shuffleNames = function() {
