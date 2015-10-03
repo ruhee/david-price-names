@@ -8,13 +8,14 @@ body {
 }
 
 a {
-	color: #999;
+	color: #bbb;
 	text-decoration: none;
 }
 
 a:hover,
-a:active {
-	color: #999;
+a:active,
+a:focus {
+	color: #bbb;
 	text-decoration: underline;
 }
 
@@ -59,6 +60,11 @@ input[type=text] {
 p.press-links {
 	margin-top: 10px;
 	font-size: 0.857em;
+}
+
+ul.press-list {
+	text-align: left;
+	line-height: 1.8;
 }
 
 /* Responsive: Portrait tablets and up */

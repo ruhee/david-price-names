@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name davidPriceNicknamesApp.controller:AboutCtrl
+ * @name davidPriceNicknamesApp.controller:PressCtrl
  * @description
- * # AboutCtrl
+ * # PressCtrl
  * Controller of the davidPriceNicknamesApp
  */
 angular.module('davidPriceNicknamesApp')
-  .controller('AboutCtrl', function () {
+  .controller('PressCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
