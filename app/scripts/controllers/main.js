@@ -142,7 +142,20 @@ angular.module('davidPriceNicknamesApp')
     	"Shiny and Chrome",
     	"Stirrups",
     	"Side Eye",
-    	"Shark"
+    	"Shark",
+    	"Bush Party",
+    	"Breakfast Army",
+    	"Hash Brown",
+    	"Fully Dimed",
+    	"Gordie Dougie",
+    	"Milk Bag",
+    	"Noodles",
+    	"Sea Lion",
+    	"Goal Horn",
+    	"Soul Patch",
+    	"Senator",
+    	"The Prez",
+    	"Terrycloth",
     ];
 
     $scope.shuffleNames = function() {
