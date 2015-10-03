@@ -47,6 +47,7 @@ input[type=text] {
 }
 
 p.press-links {
+	margin-top: 10px;
 	font-size: 0.857em;
 }
 
