@@ -51,6 +51,9 @@ angular.module('davidPriceNicknamesApp')
   				else if($scope.namePieces.indexOf('kevin') != -1 && $scope.namePieces.indexOf('pillar') != -1) {
   					$scope.shuffledName = 'Prime Time';
   				}
+  				else if($scope.namePieces.indexOf('brett') != -1 && $scope.namePieces.indexOf('lawrie') != -1) {
+  					$scope.shuffledName = 'Human Solo Cup';
+  				}
 
   				// for everybody else, put nickname before last word in name, if multi word ('Ruhee "Catfish" Dewji')
   				for(var i = 0; i < $scope.namePieces.length-1; i++) {
