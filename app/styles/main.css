@@ -23,6 +23,14 @@ h2 {
 	text-transform: uppercase;
 }
 
+h2 a,
+h2 a:hover,
+h2 a:active,
+h2 a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
 form {
 	margin: 2em 0;
 }
@@ -35,8 +43,10 @@ input[type=text] {
 	background-color: #da291c;
 	color: #fff;
 }
+
 .btn-primary:hover,
-.btn-primary:active {
+.btn-primary:active,
+.btn-primary:focus {
 	background-color: #041e42;
 }
 
