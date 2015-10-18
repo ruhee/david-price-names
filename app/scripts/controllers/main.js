@@ -176,13 +176,21 @@ angular.module('davidPriceNicknamesApp')
     $scope.capitalize = function(str) {
     	var capitalized = '';
 
-    	// if there's an apostrophe, capitalize first letter of word + first letter after apostrophe
-    	if(str.indexOf("'") != -1) {
-    		var chunks = str.split("'");
+    	var splitchar;
+
+		if(str.indexOf("'") != -1) {
+			splitchar = "'";
+		}
+		else if(str.indexOf("-") != -1) {
+			splitchar = "-";
+		}
+		// if there's an apostrophe or hyphen, capitalize first letter of word + first letter after
+    	if(splitchar) {
+    		var chunks = str.split(splitchar);
     		for(var i in chunks) {
     			capitalized += chunks[i].slice(0,1).toUpperCase()+chunks[i].slice(1);
     			if(i < chunks.length-1) {
-    				capitalized += "'";
+    				capitalized += splitchar;
     			}
     		}
     	}
